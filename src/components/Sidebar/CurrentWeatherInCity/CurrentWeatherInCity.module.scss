@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-top: 30px;
+  }
+
+  .day {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .weatherWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    justify-content: space-between;
+  }
+
+  .city {
+    font-weight: lighter;
+    font-size: 24px;
+  }
+}

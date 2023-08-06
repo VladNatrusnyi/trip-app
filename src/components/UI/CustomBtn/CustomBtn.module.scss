@@ -1,0 +1,66 @@
+%commonBtnStyles {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  position: relative;
+
+  &:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.primary {
+  @extend %commonBtnStyles;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  &:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+
+
+  }
+}
+
+.light {
+  @extend %commonBtnStyles;
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #dee2e6;
+
+  &:hover {
+    background-color: #e2e6ea;
+  }
+}
+
+.tooltipText {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 100;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  margin-bottom: 10px;
+}
+

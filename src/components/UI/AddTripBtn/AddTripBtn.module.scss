@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100%;
+  background: rgba(211, 211, 211, 0.5);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: rgba(211, 211, 211, 0.72);
+  }
+
+  i {
+    font-size: 25px;
+  }
+
+  .text {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,68 @@
+.wrapper {
+  border: 1px solid transparent;
+  &:hover {
+    cursor: pointer;
+  }
+
+  .deleteBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    padding: 10px;
+    z-index: 2;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.3);
+    }
+  }
+
+  &:hover .deleteBtn{
+    display: block;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 200px;
+    position: relative;
+
+    .badge {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      z-index: 2;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .infoBlock {
+    padding: 15px;
+
+    .title {
+      color: #3a3a3a;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .dates {
+      color: gray;
+      font-size: 12px;
+    }
+  }
+}
+
+.wrapper.active {
+  border: 1px solid #349DFF;
+}

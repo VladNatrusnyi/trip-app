@@ -1,0 +1,60 @@
+$gray-600: #6c757d;
+$input-padding-y: 0.375rem;
+$input-padding-x: 0.75rem;
+$input-height: 2.25rem;
+
+.customInput {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  @media (max-width: 768px) {
+   width: 80%;
+  }
+
+  .inputIcon {
+    position: absolute;
+    top: 50%;
+    left: $input-padding-x;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: $gray-600;
+  }
+
+  .inputIconDelete {
+    position: absolute;
+    top: 50%;
+    right: $input-padding-x;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: $gray-600;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .formControl {
+    padding-left: calc(#{$input-padding-x} + 2rem);
+    width: 100%;
+    height: $input-height;
+    color: $gray-600;
+    background-color: rgba(211, 211, 211, 0.5);
+    background-clip: padding-box;
+    border: none;
+    font-size: 16px;
+
+    &:focus {
+      border-color: blue;
+      outline: 0;
+      box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+    }
+
+
+    &::placeholder {
+      color: $gray-600;
+    }
+  }
+}

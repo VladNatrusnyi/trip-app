@@ -1,0 +1,26 @@
+.alert {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+
+  .message {
+    margin-right: 10px;
+  }
+
+  .closeBtn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    padding: 0;
+  }
+}

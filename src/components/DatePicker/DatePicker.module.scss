@@ -1,0 +1,36 @@
+.datePicker {
+
+  .datePickerInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+  }
+
+  i {
+    color: gray;
+  }
+
+  input {
+    padding: 10px 30px 10px 0px;
+    border: none;
+    outline: none;
+  }
+
+  .calendarIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .calendarContainer {
+    margin-top: 10px;
+  }
+}

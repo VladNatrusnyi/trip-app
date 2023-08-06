@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+}
+
+
+.addTripWrapper {
+  //border: 1px solid green;
+}
+
+
+
+
