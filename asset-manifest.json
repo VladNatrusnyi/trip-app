@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/trip-app/static/css/main.1b5f1622.css",
+    "main.js": "/trip-app/static/js/main.b9788146.js",
+    "static/media/3.webp": "/trip-app/static/media/3.7db1ed10c5ecbaba73a4.webp",
+    "static/media/2.webp": "/trip-app/static/media/2.f99cb2fcc9db098186f3.webp",
+    "static/media/11.webp": "/trip-app/static/media/11.4d6870b1f8e11b3bbc0e.webp",
+    "static/media/7.webp": "/trip-app/static/media/7.4804e36b63fab8f2d756.webp",
+    "static/media/preloader.gif": "/trip-app/static/media/preloader.a1a2161fb6f6bbefa162.gif",
+    "static/media/4.webp": "/trip-app/static/media/4.e62d432e8993fb43045c.webp",
+    "static/media/9.webp": "/trip-app/static/media/9.e0d2b5067ab6c05205da.webp",
+    "static/media/6.webp": "/trip-app/static/media/6.8484fffc050e1a4024cf.webp",
+    "static/media/8.webp": "/trip-app/static/media/8.259b33122de2cbd72d56.webp",
+    "static/media/10.webp": "/trip-app/static/media/10.bd5006923ccef6124503.webp",
+    "static/media/1.webp": "/trip-app/static/media/1.d0cd458714d2618be52e.webp",
+    "static/media/cloudBg.png": "/trip-app/static/media/cloudBg.42f1fea8b583625a6974.png",
+    "static/media/5.webp": "/trip-app/static/media/5.2a5083d38be084c73438.webp",
+    "static/media/partly_sunny.png": "/trip-app/static/media/partly_sunny.3d97a3b8c61995bae854.png",
+    "index.html": "/trip-app/index.html",
+    "main.1b5f1622.css.map": "/trip-app/static/css/main.1b5f1622.css.map",
+    "main.b9788146.js.map": "/trip-app/static/js/main.b9788146.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b5f1622.css",
+    "static/js/main.b9788146.js"
+  ]
+}
